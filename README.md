@@ -11,3 +11,9 @@ This set of notebooks was created in [Google Colab](https://colab.research.googl
 [Evidence_RAG_v2.ipynb](https://github.com/timk11/medical-llm-tools/blob/main/Evidence_RAG_v2.ipynb) uses Gemini 3.1 Flash Lite as the inference model. This model is available through the [Gemini API](https://ai.google.dev/gemini-api/docs/models) and allows for a limited amount of use in the free tier. At this stage of development a substantial improvement is seen in the quality of answers.
 
 [Evidence_RAG_v3.ipynb](https://github.com/timk11/medical-llm-tools/blob/main/Evidence_RAG_v3.ipynb) uses the same models as v2 for embedding and inference, but includes the use of [LangChain](https://www.langchain.com/) for building the embeddings and running the inference, and [Chroma](https://www.langchain.com/blog/langchain-chroma) as a retrievable vector database. It also uses paragraph-aware chunking to improve the quality of retrieved chunks.
+
+**If these notebooks fail to render** you can also view them in [nbviewer](https://nbviewer.org) using these links:
+- [Evidence_RAG_v1](https://nbviewer.org/github/timk11/medical-llm-tools/blob/main/Evidence_RAG_v1.ipynb)
+- [Evidence_RAG_v1_testing_and_tuning](https://nbviewer.org/github/timk11/medical-llm-tools/blob/main/Evidence_RAG_v1_testing_and_tuning.ipynb)
+- [Evidence_RAG_v2](https://nbviewer.org/github/timk11/medical-llm-tools/blob/main/Evidence_RAG_v2.ipynb)
+- [Evidence_RAG_v3](https://nbviewer.org/github/timk11/medical-llm-tools/blob/main/Evidence_RAG_v3.ipynb)
